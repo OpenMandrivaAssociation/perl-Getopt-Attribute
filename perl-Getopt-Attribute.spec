@@ -1,5 +1,5 @@
 %define upstream_name    Getopt-Attribute
-%define upstream_version 1.44
+%define upstream_version 1.46
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
