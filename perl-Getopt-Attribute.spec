@@ -12,8 +12,9 @@ Url:        http://search.cpan.org/dist/%{upstream_name}
 Source0:    http://www.cpan.org/modules/by-module/Getopt/%{upstream_name}-%{upstream_version}.tar.gz
 
 BuildRequires: perl(Test::Compile)
-BuildRequires: perl(Test::More)
+BuildRequires: perl(Test::More) >= 0.940.0
 BuildRequires: perl(UNIVERSAL::require)
+
 BuildArch: noarch
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}
 
